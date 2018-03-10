@@ -1,0 +1,35 @@
+{
+  "name": "voice-engine-js-respeaker",
+  "version": "0.0.0",
+  "description": "The library is used to create voice interface applications for ReSpeaker devices",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bergos/voice-engine-js-respeaker.git"
+  },
+  "keywords": [
+    "engine",
+    "keyword",
+    "respeaker",
+    "speech",
+    "spotting",
+    "streams",
+    "text",
+    "voice"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergos/voice-engine-js-respeaker/issues"
+  },
+  "homepage": "https://github.com/bergos/voice-engine-js-respeaker",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "node-wiring-pi": "0.0.4",
+    "spi-device": "^1.0.2"
+  },
+  "devDependencies": {
+    "commander": "^2.15.0",
+    "standard": "^11.0.0"
+  }
+}
